@@ -1,0 +1,25 @@
+{
+	"samaa" : {
+		"format" : {
+			"auhtor" : ".author.url.fn::text",
+			"news_title" :  "div.col-md-9 div.utility-content h1.contentheading::text",
+			"news_published" : "div.utility-content div.entry-utility.clearfix div.the-date::text"
+		},
+		"allowed_domains" : [
+    		"samaa.tv"
+		],
+		"depth_limit" : 4.0,
+		"handle_http_list" : [
+		    403.0,
+		    404.0,
+		    301.0,
+		    302.0,
+		    303.0,
+		    307.0,
+		    308.0
+		],
+		"start_urls" :  [
+ 		   "https://www.samaa.tv"
+		]
+	}
+}
